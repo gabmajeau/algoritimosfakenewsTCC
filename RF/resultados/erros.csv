@@ -1,0 +1,20 @@
+Arquivo,Classe Real,Classe Prevista,Probabilidade Fake (%),Confiança (%),Resultado
+2599.txt,Fake,Verdadeira,47.0,53.0,✘
+2693.txt,Fake,Verdadeira,32.33,67.67,✘
+2539.txt,Verdadeira,Fake,60.67,60.67,✘
+2557.txt,Verdadeira,Fake,51.67,51.67,✘
+2596.txt,Verdadeira,Fake,55.67,55.67,✘
+2663.txt,Verdadeira,Fake,51.67,51.67,✘
+2708.txt,Verdadeira,Fake,60.33,60.33,✘
+2712.txt,Verdadeira,Fake,63.0,63.0,✘
+2732.txt,Verdadeira,Fake,59.0,59.0,✘
+2736.txt,Verdadeira,Fake,60.33,60.33,✘
+2742.txt,Verdadeira,Fake,69.0,69.0,✘
+2805.txt,Verdadeira,Fake,54.33,54.33,✘
+2847.txt,Verdadeira,Fake,53.0,53.0,✘
+2882.txt,Verdadeira,Fake,91.0,91.0,✘
+2909.txt,Verdadeira,Fake,51.0,51.0,✘
+2964.txt,Verdadeira,Fake,50.33,50.33,✘
+2985.txt,Verdadeira,Fake,54.67,54.67,✘
+3009.txt,Verdadeira,Fake,56.67,56.67,✘
+3024.txt,Verdadeira,Fake,52.67,52.67,✘

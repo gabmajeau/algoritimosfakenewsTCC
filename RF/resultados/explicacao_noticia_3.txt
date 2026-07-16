@@ -1,0 +1,203 @@
+EXPLICAÇÃO DA CLASSIFICAÇÃO
+Arquivo: 2523.txt
+Classe real: Fake
+Classe prevista: Fake
+Probabilidade de Fake: 90.00%
+
+VOTAÇÃO DA FLORESTA
+Fake: 270.0
+Verdadeira: 30.0
+
+CAMINHO NA ÁRVORE 3
+
+Nó: 0
+Palavra/atributo: todo
+Valor TF-IDF: 0.000000
+Threshold: 0.002375
+Decisão: 0.000000 <= 0.002375
+Caminho seguido: ESQUERDA
+
+Nó: 1
+Palavra/atributo: menos
+Valor TF-IDF: 0.000000
+Threshold: 0.002077
+Decisão: 0.000000 <= 0.002077
+Caminho seguido: ESQUERDA
+
+Nó: 2
+Palavra/atributo: anos
+Valor TF-IDF: 0.040015
+Threshold: 0.002020
+Decisão: 0.040015 > 0.002020
+Caminho seguido: DIREITA
+
+Nó: 412
+Palavra/atributo: isso
+Valor TF-IDF: 0.000000
+Threshold: 0.002426
+Decisão: 0.000000 <= 0.002426
+Caminho seguido: ESQUERDA
+
+Nó: 413
+Palavra/atributo: são
+Valor TF-IDF: 0.000000
+Threshold: 0.008007
+Decisão: 0.000000 <= 0.008007
+Caminho seguido: ESQUERDA
+
+Nó: 414
+Palavra/atributo: neste
+Valor TF-IDF: 0.000000
+Threshold: 0.008651
+Decisão: 0.000000 <= 0.008651
+Caminho seguido: ESQUERDA
+
+Nó: 415
+Palavra/atributo: ação
+Valor TF-IDF: 0.000000
+Threshold: 0.006535
+Decisão: 0.000000 <= 0.006535
+Caminho seguido: ESQUERDA
+
+Nó: 416
+Palavra/atributo: justiça
+Valor TF-IDF: 0.000000
+Threshold: 0.006735
+Decisão: 0.000000 <= 0.006735
+Caminho seguido: ESQUERDA
+
+Nó: 417
+Palavra/atributo: posto
+Valor TF-IDF: 0.000000
+Threshold: 0.034005
+Decisão: 0.000000 <= 0.034005
+Caminho seguido: ESQUERDA
+
+Nó: 418
+Palavra/atributo: movimento
+Valor TF-IDF: 0.000000
+Threshold: 0.024967
+Decisão: 0.000000 <= 0.024967
+Caminho seguido: ESQUERDA
+
+Nó: 419
+Palavra/atributo: nesse
+Valor TF-IDF: 0.000000
+Threshold: 0.010010
+Decisão: 0.000000 <= 0.010010
+Caminho seguido: ESQUERDA
+
+Nó: 420
+Palavra/atributo: ficasse
+Valor TF-IDF: 0.000000
+Threshold: 0.063917
+Decisão: 0.000000 <= 0.063917
+Caminho seguido: ESQUERDA
+
+Nó: 421
+Palavra/atributo: darão
+Valor TF-IDF: 0.000000
+Threshold: 0.025260
+Decisão: 0.000000 <= 0.025260
+Caminho seguido: ESQUERDA
+
+Nó: 422
+Palavra/atributo: valencia
+Valor TF-IDF: 0.000000
+Threshold: 0.040528
+Decisão: 0.000000 <= 0.040528
+Caminho seguido: ESQUERDA
+
+Nó: 423
+Palavra/atributo: construtora
+Valor TF-IDF: 0.000000
+Threshold: 0.022717
+Decisão: 0.000000 <= 0.022717
+Caminho seguido: ESQUERDA
+
+Nó: 424
+Palavra/atributo: incluiria
+Valor TF-IDF: 0.000000
+Threshold: 0.021702
+Decisão: 0.000000 <= 0.021702
+Caminho seguido: ESQUERDA
+
+Nó: 425
+Palavra/atributo: planeja
+Valor TF-IDF: 0.000000
+Threshold: 0.103417
+Decisão: 0.000000 <= 0.103417
+Caminho seguido: ESQUERDA
+
+Nó: 426
+Palavra/atributo: itajubá
+Valor TF-IDF: 0.000000
+Threshold: 0.151211
+Decisão: 0.000000 <= 0.151211
+Caminho seguido: ESQUERDA
+
+Nó: 427
+Palavra/atributo: segunda
+Valor TF-IDF: 0.000000
+Threshold: 0.060265
+Decisão: 0.000000 <= 0.060265
+Caminho seguido: ESQUERDA
+
+Nó: 428
+Palavra/atributo: municipal
+Valor TF-IDF: 0.000000
+Threshold: 0.068333
+Decisão: 0.000000 <= 0.068333
+Caminho seguido: ESQUERDA
+
+Nó: 429
+Palavra/atributo: parte
+Valor TF-IDF: 0.000000
+Threshold: 0.008461
+Decisão: 0.000000 <= 0.008461
+Caminho seguido: ESQUERDA
+
+Nó: 430
+Palavra/atributo: foram
+Valor TF-IDF: 0.000000
+Threshold: 0.004546
+Decisão: 0.000000 <= 0.004546
+Caminho seguido: ESQUERDA
+
+Nó: 431
+Palavra/atributo: josé
+Valor TF-IDF: 0.000000
+Threshold: 0.028999
+Decisão: 0.000000 <= 0.028999
+Caminho seguido: ESQUERDA
+
+Nó: 432
+Palavra/atributo: dono
+Valor TF-IDF: 0.000000
+Threshold: 0.024703
+Decisão: 0.000000 <= 0.024703
+Caminho seguido: ESQUERDA
+
+Nó: 433
+Palavra/atributo: ninguém
+Valor TF-IDF: 0.000000
+Threshold: 0.015834
+Decisão: 0.000000 <= 0.015834
+Caminho seguido: ESQUERDA
+
+Nó: 434
+Palavra/atributo: atendimento
+Valor TF-IDF: 0.000000
+Threshold: 0.084857
+Decisão: 0.000000 <= 0.084857
+Caminho seguido: ESQUERDA
+
+Nó: 435
+Palavra/atributo: usaram
+Valor TF-IDF: 0.000000
+Threshold: 0.099421
+Decisão: 0.000000 <= 0.099421
+Caminho seguido: ESQUERDA
+
+Folha final: 436
+Classificação da folha: Fake

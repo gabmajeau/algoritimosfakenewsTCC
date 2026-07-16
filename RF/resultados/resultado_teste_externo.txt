@@ -1,0 +1,33 @@
+
+===============================
+TESTE EXTERNO - RANDOM FOREST
+===============================
+
+Dataset externo:
+- Notícias verdadeiras: 499
+- Notícias fake sintéticas IA: 499
+- Total: 998
+
+Acertos: 735
+Erros: 263
+
+Accuracy: 0.7365
+Precision: 0.6549
+Recall: 1.0000
+F1-score: 0.7914
+AUC: 0.8966
+
+Matriz de Confusão:
+
+Verdadeiras classificadas corretamente: 236
+Verdadeiras classificadas como fake: 263
+Fake classificadas como verdadeiras: 0
+Fake classificadas corretamente: 499
+
+Arquivos gerados:
+
+- resultados/classification_report_teste_externo.txt
+- resultados/confusion_matrix_teste_externo.png
+- resultados/roc_curve_teste_externo.png
+- resultados/classificacoes_teste_externo.xlsx
+- resultados/classificacoes_teste_externo.csv

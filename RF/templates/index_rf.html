@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Forest Fake News</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #000000;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #000000;
+            border-bottom: 3px solid #d9d9d9;
+            padding-bottom: 15px;
+            width: 700px;
+        }
+
+        textarea {
+            width: 700px;
+            height: 260px;
+            background: #ffffff;
+            color: #000000;
+            border: 3px solid #d9d9d9;
+            padding: 20px;
+            font-size: 18px;
+            resize: none;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 14px 35px;
+            background: rgb(15, 101, 172);
+            color: #ffffff;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .resultado {
+            margin-top: 40px;
+            width: 700px;
+            border-top: 3px solid #d9d9d9;
+            padding-top: 20px;
+        }
+
+        .fake {
+            color: rgb(228, 97, 97);
+            font-weight: bold;
+        }
+
+        .true {
+            color: rgb(49, 218, 49);
+            font-weight: bold;
+        }
+
+        details {
+            margin-top: 35px;
+            width: 900px;
+            border: 2px solid #000000;
+            padding: 20px;
+        }
+
+        summary {
+            cursor: pointer;
+            color: #000000;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .markdown {
+            margin-top: 25px;
+            line-height: 1.7;
+        }
+
+        code {
+            background: #ffffff;
+            padding: 3px 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>TESTE — Random Forest</h1>
+
+    <form method="POST">
+        <textarea name="noticia" placeholder="Digite a notícia para análise..."></textarea>
+        <br>
+        <button type="submit">ANALISAR</button>
+    </form>
+
+    {% if resultado %}
+
+    <div class="resultado">
+
+        <h2>Resultado</h2>
+
+        <p>
+            <strong>Classificação final:</strong>
+
+            {% if "Fake" in resultado %}
+                <span class="fake">{{ resultado }}</span>
+            {% elif "Verdadeira" in resultado %}
+                <span class="true">{{ resultado }}</span>
+            {% else %}
+                {{ resultado }}
+            {% endif %}
+        </p>
+
+        <p><strong>Probabilidade de Fake News:</strong> {{ prob_fake }}%</p>
+
+         <p><strong>Nível de confiança:</strong> {{ nivel }}</p>
+
+    </div>
+
+    <details>
+        <summary>Classificação Técnica</summary>
+
+        <div id="markdown" class="markdown"></div>
+
+        <textarea id="raw-md" style="display:none;">{{ explicacao }}</textarea>
+    </details>
+
+    <script>
+        const raw = document.getElementById("raw-md").value;
+        document.getElementById("markdown").innerHTML = marked.parse(raw);
+    </script>
+
+    {% endif %}
+
+</body>
+</html>

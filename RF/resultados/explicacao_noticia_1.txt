@@ -1,0 +1,189 @@
+EXPLICAÇÃO DA CLASSIFICAÇÃO
+Arquivo: 2521.txt
+Classe real: Fake
+Classe prevista: Fake
+Probabilidade de Fake: 90.33%
+
+VOTAÇÃO DA FLORESTA
+Fake: 271.0
+Verdadeira: 29.0
+
+CAMINHO NA ÁRVORE 1
+
+Nó: 0
+Palavra/atributo: tempo
+Valor TF-IDF: 0.000000
+Threshold: 0.001759
+Decisão: 0.000000 <= 0.001759
+Caminho seguido: ESQUERDA
+
+Nó: 1
+Palavra/atributo: partido
+Valor TF-IDF: 0.000000
+Threshold: 0.003536
+Decisão: 0.000000 <= 0.003536
+Caminho seguido: ESQUERDA
+
+Nó: 2
+Palavra/atributo: ela
+Valor TF-IDF: 0.000000
+Threshold: 0.002288
+Decisão: 0.000000 <= 0.002288
+Caminho seguido: ESQUERDA
+
+Nó: 3
+Palavra/atributo: distrito
+Valor TF-IDF: 0.000000
+Threshold: 0.003443
+Decisão: 0.000000 <= 0.003443
+Caminho seguido: ESQUERDA
+
+Nó: 4
+Palavra/atributo: na
+Valor TF-IDF: 0.000000
+Threshold: 0.028855
+Decisão: 0.000000 <= 0.028855
+Caminho seguido: ESQUERDA
+
+Nó: 5
+Palavra/atributo: de
+Valor TF-IDF: 0.196164
+Threshold: 0.227621
+Decisão: 0.196164 <= 0.227621
+Caminho seguido: ESQUERDA
+
+Nó: 6
+Palavra/atributo: bandeiras
+Valor TF-IDF: 0.000000
+Threshold: 0.004995
+Decisão: 0.000000 <= 0.004995
+Caminho seguido: ESQUERDA
+
+Nó: 7
+Palavra/atributo: cancelaram
+Valor TF-IDF: 0.000000
+Threshold: 0.021392
+Decisão: 0.000000 <= 0.021392
+Caminho seguido: ESQUERDA
+
+Nó: 8
+Palavra/atributo: velho
+Valor TF-IDF: 0.000000
+Threshold: 0.011795
+Decisão: 0.000000 <= 0.011795
+Caminho seguido: ESQUERDA
+
+Nó: 9
+Palavra/atributo: radical
+Valor TF-IDF: 0.000000
+Threshold: 0.016797
+Decisão: 0.000000 <= 0.016797
+Caminho seguido: ESQUERDA
+
+Nó: 10
+Palavra/atributo: segundo
+Valor TF-IDF: 0.000000
+Threshold: 0.002067
+Decisão: 0.000000 <= 0.002067
+Caminho seguido: ESQUERDA
+
+Nó: 11
+Palavra/atributo: marun
+Valor TF-IDF: 0.000000
+Threshold: 0.148869
+Decisão: 0.000000 <= 0.148869
+Caminho seguido: ESQUERDA
+
+Nó: 12
+Palavra/atributo: devida
+Valor TF-IDF: 0.000000
+Threshold: 0.036858
+Decisão: 0.000000 <= 0.036858
+Caminho seguido: ESQUERDA
+
+Nó: 13
+Palavra/atributo: 937
+Valor TF-IDF: 0.000000
+Threshold: 0.048952
+Decisão: 0.000000 <= 0.048952
+Caminho seguido: ESQUERDA
+
+Nó: 14
+Palavra/atributo: nesta
+Valor TF-IDF: 0.000000
+Threshold: 0.007402
+Decisão: 0.000000 <= 0.007402
+Caminho seguido: ESQUERDA
+
+Nó: 15
+Palavra/atributo: colégio
+Valor TF-IDF: 0.000000
+Threshold: 0.153961
+Decisão: 0.000000 <= 0.153961
+Caminho seguido: ESQUERDA
+
+Nó: 16
+Palavra/atributo: deliberar
+Valor TF-IDF: 0.000000
+Threshold: 0.038063
+Decisão: 0.000000 <= 0.038063
+Caminho seguido: ESQUERDA
+
+Nó: 17
+Palavra/atributo: semanal
+Valor TF-IDF: 0.000000
+Threshold: 0.033146
+Decisão: 0.000000 <= 0.033146
+Caminho seguido: ESQUERDA
+
+Nó: 18
+Palavra/atributo: garantidos
+Valor TF-IDF: 0.000000
+Threshold: 0.030647
+Decisão: 0.000000 <= 0.030647
+Caminho seguido: ESQUERDA
+
+Nó: 19
+Palavra/atributo: questionário
+Valor TF-IDF: 0.000000
+Threshold: 0.024804
+Decisão: 0.000000 <= 0.024804
+Caminho seguido: ESQUERDA
+
+Nó: 20
+Palavra/atributo: anti
+Valor TF-IDF: 0.000000
+Threshold: 0.111258
+Decisão: 0.000000 <= 0.111258
+Caminho seguido: ESQUERDA
+
+Nó: 21
+Palavra/atributo: queda
+Valor TF-IDF: 0.000000
+Threshold: 0.055254
+Decisão: 0.000000 <= 0.055254
+Caminho seguido: ESQUERDA
+
+Nó: 22
+Palavra/atributo: garantir
+Valor TF-IDF: 0.000000
+Threshold: 0.095266
+Decisão: 0.000000 <= 0.095266
+Caminho seguido: ESQUERDA
+
+Nó: 23
+Palavra/atributo: momento
+Valor TF-IDF: 0.000000
+Threshold: 0.012281
+Decisão: 0.000000 <= 0.012281
+Caminho seguido: ESQUERDA
+
+Nó: 24
+Palavra/atributo: pet
+Valor TF-IDF: 0.000000
+Threshold: 0.073288
+Decisão: 0.000000 <= 0.073288
+Caminho seguido: ESQUERDA
+
+Folha final: 25
+Classificação da folha: Fake

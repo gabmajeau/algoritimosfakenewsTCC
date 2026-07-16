@@ -1,0 +1,30 @@
+
+===============================
+TESTE FINAL - RANDOM FOREST
+===============================
+
+Total de notícias avaliadas: 1082
+
+Acertos: 1043
+Erros: 39
+
+Accuracy: 0.9640
+Precision: 0.9665
+Recall: 0.9611
+F1-score: 0.9638
+AUC: 0.9888
+
+Matriz de Confusão:
+
+Verdadeiras classificadas corretamente: 524
+Verdadeiras classificadas como fake: 18
+Fake classificadas como verdadeiras: 21
+Fake classificadas corretamente: 519
+
+Arquivos gerados:
+
+- resultados/classification_report_teste.txt
+- resultados/confusion_matrix_teste.png
+- resultados/roc_curve_teste.png
+- resultados/classificacoes_teste.xlsx
+- resultados/classificacoes_teste.csv

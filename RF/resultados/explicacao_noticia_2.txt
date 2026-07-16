@@ -1,0 +1,140 @@
+EXPLICAÇÃO DA CLASSIFICAÇÃO
+Arquivo: 2522.txt
+Classe real: Fake
+Classe prevista: Fake
+Probabilidade de Fake: 70.00%
+
+VOTAÇÃO DA FLORESTA
+Fake: 210.0
+Verdadeira: 90.0
+
+CAMINHO NA ÁRVORE 2
+
+Nó: 0
+Palavra/atributo: 2017
+Valor TF-IDF: 0.000000
+Threshold: 0.001788
+Decisão: 0.000000 <= 0.001788
+Caminho seguido: ESQUERDA
+
+Nó: 1
+Palavra/atributo: além
+Valor TF-IDF: 0.000000
+Threshold: 0.001633
+Decisão: 0.000000 <= 0.001633
+Caminho seguido: ESQUERDA
+
+Nó: 2
+Palavra/atributo: minha
+Valor TF-IDF: 0.071507
+Threshold: 0.003512
+Decisão: 0.071507 > 0.003512
+Caminho seguido: DIREITA
+
+Nó: 622
+Palavra/atributo: caso
+Valor TF-IDF: 0.000000
+Threshold: 0.002740
+Decisão: 0.000000 <= 0.002740
+Caminho seguido: ESQUERDA
+
+Nó: 623
+Palavra/atributo: justiça
+Valor TF-IDF: 0.000000
+Threshold: 0.002486
+Decisão: 0.000000 <= 0.002486
+Caminho seguido: ESQUERDA
+
+Nó: 624
+Palavra/atributo: diz
+Valor TF-IDF: 0.000000
+Threshold: 0.002818
+Decisão: 0.000000 <= 0.002818
+Caminho seguido: ESQUERDA
+
+Nó: 625
+Palavra/atributo: leu
+Valor TF-IDF: 0.000000
+Threshold: 0.014565
+Decisão: 0.000000 <= 0.014565
+Caminho seguido: ESQUERDA
+
+Nó: 626
+Palavra/atributo: empreiteira
+Valor TF-IDF: 0.000000
+Threshold: 0.011255
+Decisão: 0.000000 <= 0.011255
+Caminho seguido: ESQUERDA
+
+Nó: 627
+Palavra/atributo: espaço
+Valor TF-IDF: 0.000000
+Threshold: 0.009451
+Decisão: 0.000000 <= 0.009451
+Caminho seguido: ESQUERDA
+
+Nó: 628
+Palavra/atributo: francesa
+Valor TF-IDF: 0.000000
+Threshold: 0.012373
+Decisão: 0.000000 <= 0.012373
+Caminho seguido: ESQUERDA
+
+Nó: 629
+Palavra/atributo: precisa
+Valor TF-IDF: 0.000000
+Threshold: 0.084292
+Decisão: 0.000000 <= 0.084292
+Caminho seguido: ESQUERDA
+
+Nó: 630
+Palavra/atributo: aposentada
+Valor TF-IDF: 0.000000
+Threshold: 0.025896
+Decisão: 0.000000 <= 0.025896
+Caminho seguido: ESQUERDA
+
+Nó: 631
+Palavra/atributo: fazem
+Valor TF-IDF: 0.000000
+Threshold: 0.006401
+Decisão: 0.000000 <= 0.006401
+Caminho seguido: ESQUERDA
+
+Nó: 632
+Palavra/atributo: dotado
+Valor TF-IDF: 0.000000
+Threshold: 0.018795
+Decisão: 0.000000 <= 0.018795
+Caminho seguido: ESQUERDA
+
+Nó: 633
+Palavra/atributo: trio
+Valor TF-IDF: 0.000000
+Threshold: 0.020902
+Decisão: 0.000000 <= 0.020902
+Caminho seguido: ESQUERDA
+
+Nó: 634
+Palavra/atributo: sindicais
+Valor TF-IDF: 0.000000
+Threshold: 0.031316
+Decisão: 0.000000 <= 0.031316
+Caminho seguido: ESQUERDA
+
+Nó: 635
+Palavra/atributo: praticados
+Valor TF-IDF: 0.000000
+Threshold: 0.019741
+Decisão: 0.000000 <= 0.019741
+Caminho seguido: ESQUERDA
+
+Nó: 636
+Palavra/atributo: os
+Valor TF-IDF: 0.000000
+Threshold: 0.097663
+Decisão: 0.000000 <= 0.097663
+Caminho seguido: ESQUERDA
+
+Folha final: 637
+Classificação da folha: Fake
