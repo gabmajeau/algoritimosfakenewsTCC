@@ -1,0 +1,29 @@
+
+===============================
+HIPERPLANO - SVM
+===============================
+
+Modelo: LinearSVC
+Tipo de separação: Hiperplano linear
+
+Intercepto: 2.152349
+Norma do vetor de pesos: 23.120883
+
+Número total de atributos: 30000
+Pesos positivos: 10644
+Pesos negativos: 17269
+Pesos zerados: 2087
+
+Maior peso: 2.088191
+Menor peso: -3.073656
+Média dos pesos: -0.015084
+Desvio padrão dos pesos: 0.132634
+
+Interpretação:
+
+Pesos positivos deslocam a classificação em direção à classe Fake.
+Pesos negativos deslocam a classificação em direção à classe Verdadeira.
+O score calculado para cada notícia representa sua distância assinada em relação ao hiperplano.
+Valores positivos indicam tendência à classe Fake.
+Valores negativos indicam tendência à classe Verdadeira.
+Quanto maior a distância absoluta, maior a segurança geométrica da decisão.

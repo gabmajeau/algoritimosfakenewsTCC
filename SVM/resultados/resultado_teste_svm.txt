@@ -1,0 +1,30 @@
+
+===============================
+TESTE FINAL - SVM
+===============================
+
+Total de notícias avaliadas: 1082
+
+Acertos: 1026
+Erros: 56
+
+Accuracy: 0.9482
+Precision: 0.9821
+Recall: 0.9130
+F1-score: 0.9463
+AUC: 0.9914
+
+Matriz de Confusão:
+
+Verdadeiras classificadas corretamente: 533
+Verdadeiras classificadas como fake: 9
+Fake classificadas como verdadeiras: 47
+Fake classificadas corretamente: 493
+
+Arquivos gerados:
+
+- classification_report_teste_svm.txt
+- confusion_matrix_teste_svm.png
+- roc_curve_teste_svm.png
+- classificacoes_teste_svm.xlsx
+- classificacoes_teste_svm.csv

@@ -1,0 +1,60 @@
+
+===============================
+VALIDAÇÃO - SVM
+===============================
+
+Total de notícias avaliadas: 1082
+
+Acertos: 1062
+Erros: 20
+
+Accuracy: 0.9815
+Precision: 0.9798
+Recall: 0.9834
+F1-score: 0.9816
+AUC: 0.9975
+
+Matriz de Confusão:
+
+Verdadeiras classificadas corretamente: 529
+Verdadeiras classificadas como fake: 11
+Fake classificadas como verdadeiras: 9
+Fake classificadas corretamente: 533
+
+===============================
+CONFIGURAÇÃO DO SVM
+===============================
+
+Modelo: LinearSVC
+C: 1.0
+Loss: squared_hinge
+Max Iterations: 5000
+Random State: 42
+
+===============================
+HIPERPLANO
+===============================
+
+Intercepto: 2.152349
+Norma do vetor de pesos: 23.120883
+Número total de atributos: 30000
+Pesos positivos: 10644
+Pesos negativos: 17269
+Pesos zerados: 2087
+
+===============================
+ARQUIVOS GERADOS
+===============================
+
+- classification_report_validacao_svm.txt
+- confusion_matrix_validacao_svm.png
+- roc_curve_validacao_svm.png
+- classificacoes_validacao_svm.xlsx
+- classificacoes_validacao_svm.csv
+- vetor_pesos_svm.xlsx
+- vetor_pesos_svm.csv
+- palavras_mais_importantes_fake_svm.xlsx
+- palavras_mais_importantes_true_svm.xlsx
+- hiperplano_svm.txt
+- amostras_proximas_hiperplano_svm.xlsx
+- amostras_proximas_hiperplano_svm.csv

@@ -1,0 +1,27 @@
+
+===============================
+TREINAMENTO SVM
+===============================
+
+Total de notícias: 5036
+Fake: 2518
+Verdadeiras: 2518
+
+Shape TF-IDF: (5036, 30000)
+
+Configuração do SVM:
+LinearSVC(max_iter=5000, random_state=42)
+
+Accuracy no treino: 0.9994
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+  Verdadeira       1.00      1.00      1.00      2518
+        Fake       1.00      1.00      1.00      2518
+
+    accuracy                           1.00      5036
+   macro avg       1.00      1.00      1.00      5036
+weighted avg       1.00      1.00      1.00      5036
+

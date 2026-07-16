@@ -1,0 +1,33 @@
+
+===============================
+TESTE EXTERNO - SVM
+===============================
+
+Dataset externo:
+- Notícias verdadeiras: 499
+- Notícias fake sintéticas IA: 499
+- Total: 998
+
+Acertos: 512
+Erros: 486
+
+Accuracy: 0.5130
+Precision: 0.5297
+Recall: 0.2325
+F1-score: 0.3231
+AUC: 0.7181
+
+Matriz de Confusão:
+
+Verdadeiras classificadas corretamente: 396
+Verdadeiras classificadas como fake: 103
+Fake classificadas como verdadeiras: 383
+Fake classificadas corretamente: 116
+
+Arquivos gerados:
+
+- classification_report_teste_externo_svm.txt
+- confusion_matrix_teste_externo_svm.png
+- roc_curve_teste_externo_svm.png
+- classificacoes_teste_externo_svm.xlsx
+- classificacoes_teste_externo_svm.csv
